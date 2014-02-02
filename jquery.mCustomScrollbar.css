@@ -1,0 +1,399 @@
+#popupAbout .customScrollBox {
+	position:relative;
+	height:100%;
+	overflow:hidden;
+}
+#popupAbout .customScrollBox .container {
+	position:relative;
+	width:880px;
+	top:0;
+	float:left;
+}
+#popupAbout .customScrollBox .content {
+	clear:both;
+}
+#popupAbout .dragger_container {
+	position:relative;
+	width:2px;
+	height:525px;
+	float:left;
+	margin:40px 0 0 10px;
+	background:#333;
+cursor:pointer -moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	cursor:s-resize;
+}
+#popupAbout .dragger {
+	position:absolute;
+	width:2px;
+	height:60px;
+	background:#999;
+	text-align:center;
+	line-height:60px;
+	color:#666;
+	overflow:hidden;
+	cursor:pointer;
+	-moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#popupAbout .dragger_pressed {
+	position:absolute;
+	width:4px;
+	margin-left:-1px;
+	height:60px;
+	background:#999;
+	text-align:center;
+	line-height:60px;
+	color:#666;
+	overflow:hidden;
+	-moz-border-radius:4px;
+	-khtml-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	cursor:s-resize;
+}
+#popupAbout .scrollUpBtn, #popupAbout .scrollDownBtn {
+	position:absolute;
+	display:inline-block;
+	width:14px;
+	height:15px;
+	margin-right:2px;
+	text-decoration:none;
+	right:0;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.20;
+	-khtml-opacity:0.20;
+	opacity:0.20;
+}
+#popupAbout .scrollUpBtn {
+	top:16px;
+	background:url(images/mcs_btnUp.png) center center no-repeat;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupAbout .scrollDownBtn {
+	bottom:12px;
+	background:url(images/mcs_btnDown.png) center center no-repeat;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupAbout .scrollUpBtn:hover, #popupAbout .scrollDownBtn:hover {
+	filter:alpha(opacity=60);
+	-moz-opacity:0.60;
+	-khtml-opacity:0.60;
+	opacity:0.60;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}#popupProjects .customScrollBox {
+	position:relative;
+	height:100%;
+	overflow:hidden;
+}
+#popupProjects .customScrollBox .container {
+	position:relative;
+	width:880px;
+	top:0;
+	float:left;
+}
+#popupProjects .customScrollBox .content {
+	clear:both;
+}
+#popupProjects .dragger_container {
+	position:relative;
+	width:2px;
+	height:525px;
+	float:left;
+	margin:40px 0 0 10px;
+	background:#333;
+cursor:pointer -moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	cursor:s-resize;
+}
+#popupProjects .dragger {
+	position:absolute;
+	width:2px;
+	height:60px;
+	background:#999;
+	text-align:center;
+	line-height:60px;
+	color:#666;
+	overflow:hidden;
+	cursor:pointer;
+	-moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#popupProjects .dragger_pressed {
+	position:absolute;
+	width:4px;
+	margin-left:-1px;
+	height:60px;
+	background:#999;
+	text-align:center;
+	line-height:60px;
+	color:#666;
+	overflow:hidden;
+	-moz-border-radius:4px;
+	-khtml-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	cursor:s-resize;
+}
+#popupProjects .scrollUpBtn, #popupProjects .scrollDownBtn {
+	position:absolute;
+	display:inline-block;
+	width:14px;
+	height:15px;
+	margin-right:2px;
+	text-decoration:none;
+	right:0;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.20;
+	-khtml-opacity:0.20;
+	opacity:0.20;
+}
+#popupProjects .scrollUpBtn {
+	top:16px;
+	background:url(images/mcs_btnUp.png) center center no-repeat;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupProjects .scrollDownBtn {
+	bottom:12px;
+	background:url(images/mcs_btnDown.png) center center no-repeat;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupProjects .scrollUpBtn:hover, #popupProjects .scrollDownBtn:hover {
+	filter:alpha(opacity=60);
+	-moz-opacity:0.60;
+	-khtml-opacity:0.60;
+	opacity:0.60;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupContact .customScrollBox {
+	position:relative;
+	height:100%;
+	overflow:hidden;
+}
+#popupContact .customScrollBox .container {
+	position:relative;
+	width:880px;
+	top:0;
+	float:left;
+}
+#popupContact .customScrollBox .content {
+	clear:both;
+}
+#popupContact .dragger_container {
+	position:relative;
+	width:2px;
+	height:525px;
+	float:left;
+	margin:40px 0 0 10px;
+	background:#333;
+cursor:pointer -moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	cursor:s-resize;
+}
+#popupContact .dragger {
+	position:absolute;
+	width:2px;
+	height:60px;
+	background:#999;
+	text-align:center;
+	line-height:60px;
+	color:#666;
+	overflow:hidden;
+	cursor:pointer;
+	-moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#popupContact .dragger_pressed {
+	position:absolute;
+	width:4px;
+	margin-left:-1px;
+	height:60px;
+	background:#999;
+	text-align:center;
+	line-height:60px;
+	color:#666;
+	overflow:hidden;
+	-moz-border-radius:4px;
+	-khtml-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	cursor:s-resize;
+}
+#popupContact .scrollUpBtn, #popupContact .scrollDownBtn {
+	position:absolute;
+	display:inline-block;
+	width:14px;
+	height:15px;
+	margin-right:2px;
+	text-decoration:none;
+	right:0;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.20;
+	-khtml-opacity:0.20;
+	opacity:0.20;
+}
+#popupContact .scrollUpBtn {
+	top:16px;
+	background:url(images/mcs_btnUp.png) center center no-repeat;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupContact .scrollDownBtn {
+	bottom:12px;
+	background:url(images/mcs_btnDown.png) center center no-repeat;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupContact .scrollUpBtn:hover, #popupContact .scrollDownBtn:hover {
+	filter:alpha(opacity=60);
+	-moz-opacity:0.60;
+	-khtml-opacity:0.60;
+	opacity:0.60;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupBlog .customScrollBox {
+	position:relative;
+	height:100%;
+	overflow:hidden;
+}
+#popupBlog .customScrollBox .container {
+	position:relative;
+	width:880px;
+	top:0;
+	float:left;
+}
+#popupBlog .customScrollBox .content {
+	clear:both;
+}
+#popupBlog .dragger_container {
+	position:relative;
+	width:2px;
+	height:525px;
+	float:left;
+	margin:40px 0 0 10px;
+	background:#333;
+cursor:pointer -moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	cursor:s-resize;
+}
+#popupBlog .dragger {
+	position:absolute;
+	width:2px;
+	height:60px;
+	background:#999;
+	text-align:center;
+	line-height:60px;
+	color:#666;
+	overflow:hidden;
+	cursor:pointer;
+	-moz-border-radius:2px;
+	-khtml-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#popupBlog .dragger_pressed {
+	position:absolute;
+	width:4px;
+	margin-left:-1px;
+	height:60px;
+	background:#999;
+	text-align:center;
+	line-height:60px;
+	color:#666;
+	overflow:hidden;
+	-moz-border-radius:4px;
+	-khtml-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	cursor:s-resize;
+}
+#popupBlog .scrollUpBtn, #popupBlog .scrollDownBtn {
+	position:absolute;
+	display:inline-block;
+	width:14px;
+	height:15px;
+	margin-right:2px;
+	text-decoration:none;
+	right:0;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.20;
+	-khtml-opacity:0.20;
+	opacity:0.20;
+}
+#popupBlog .scrollUpBtn {
+	top:16px;
+	background:url(images/mcs_btnUp.png) center center no-repeat;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupBlog .scrollDownBtn {
+	bottom:12px;
+	background:url(images/mcs_btnDown.png) center center no-repeat;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
+#popupBlog .scrollUpBtn:hover, #popupBlog .scrollDownBtn:hover {
+	filter:alpha(opacity=60);
+	-moz-opacity:0.60;
+	-khtml-opacity:0.60;
+	opacity:0.60;
+	-webkit-transition:all .25s linear;
+	-moz-transition:all .25s linear;
+	-o-transition:all .25s linear;
+	-ms-transition:all .25s linear;
+	transition:all .25s linear;
+}
