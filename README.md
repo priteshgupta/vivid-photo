@@ -1,6 +1,6 @@
 ## Vivid Photo: Clean One Page Portfolio Template
 
-Vivid Photo is a **modern** and **Elegant** **Photography Website
+Vivid Photo is a **modern** and **elegant Photography Website
 Template**. It is **cross browser compatible** and created to suit needs
 of **photographers**. The template is made using **HTML5**, **jQuery**
 and **CSS3** with **no external fonts**, **HTML5 Contact Form** and a
@@ -18,7 +18,9 @@ with a syntax like
 
 ```
 <div class="content">
-	<div>		<a href="1.jpg"><img src="1_thumb.jpg" title=" Title" alt="Alt" class="thumb" /></a>	</div>
+	<div>
+		<a href="1.jpg"><img src="1_thumb.jpg" title=" Title" alt="Alt" class="thumb" /></a>
+	</div>
 </div>
 ```
 
