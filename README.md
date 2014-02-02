@@ -11,7 +11,7 @@ your personal as well as commercial projects.
 at http://www.priteshgupta.com/templates/vivid-photo/.**
 
 
-**Adding Gallery Items**
+### Adding Gallery Items
 
 To add items to the gallery (bottom thumbnail strip) simply add an image
 with a syntax like 
@@ -28,12 +28,12 @@ And `1_thumb.jpg` is the path of the thumbnail, make sure the
 thumbnails are of the dimensions **207** x **138** or the same height. 
 
 
-**Changing Content Area Text**
+### Changing Content Area Text
 
 Doing this is fairly easy, just change the content within the paragraphs
 and headings within the `<article>` element. 
 
 
-**Fonts**
+### Fonts
 
 The template uses the font **"Myriad Pro"** and  **"Century Gothic"**. 
