@@ -8,7 +8,7 @@ lot more stuff for various functionalities. You are free to use it for
 your personal as well as commercial projects.
 
 **Release Page
-at http://www.priteshgupta.com/templates/vivid-photo/.**
+at http://priteshgupta.com/templates/vivid-photo/.**
 
 
 **Adding Gallery Items**
